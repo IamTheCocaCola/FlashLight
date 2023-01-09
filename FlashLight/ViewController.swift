@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func Button(_ sender: Any) {
+        self.view.backgroundColor = UIColor.blue
+    }
+    
 }
 
