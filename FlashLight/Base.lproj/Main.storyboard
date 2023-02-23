@@ -32,7 +32,18 @@
                                     <color key="baseBackgroundColor" systemColor="secondaryLabelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oD4-Re-wKf"/>
+                                    <action selector="Colors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pdn-KW-WNn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-br-k8I">
+                                <rect key="frame" x="140" y="478" width="112" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Reset">
+                                    <color key="baseBackgroundColor" systemColor="secondaryLabelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jO9-q9-Yni"/>
                                 </connections>
                             </button>
                         </subviews>
